@@ -6,8 +6,10 @@ Break Timer is a little application, that regularly notifies you to take a break
 
 ## Dependencies
 
-- Python 3
-- PyQt5
+- Python (3.6)
+- PyQt5 (5.9.2)
+- fbs
+- _for more information see see requirements/base.txt_
 
 ## Installation
 
@@ -15,7 +17,7 @@ Break Timer is a little application, that regularly notifies you to take a break
 
 #### Debian based distributions (including Ubuntu):
 
-**Install BreakTimer and receive automatic updates:**
+Install BreakTimer and receive automatic updates:
 
 ``` 
 $ sudo apt-get install apt-transport-https
@@ -25,18 +27,20 @@ $ sudo apt-get update
 $ sudo apt-get install breaktimer
 ```
 
-**Force an immediate update (if you have BreakTimer already installed):**
+Force an immediate update (if you have BreakTimer already installed):
 
 ```
 $ sudo apt-get update -o Dir::Etc::sourcelist="/etc/apt/sources.list.d/breaktimer.list" -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0"
 $ sudo apt-get install --only-upgrade breaktimer
 ```
 
-**Install BreakTimer WITHOUT receiving automatic updates:**
+Install BreakTimer WITHOUT receiving automatic updates:
+
+Download [here](https://fbs.sh/Palexer/BreakTimer/BreakTimer.deb)
 
 #### Arch based distributions (including Manjaro)
 
-**Install BreakTimer and receive automatic updates:**
+Install BreakTimer and receive automatic updates:
 
 ``` 
 $ curl -O https://fbs.sh/Palexer/BreakTimer/public-key.gpg && sudo pacman-key --add public-key.gpg && sudo pacman-key --lsign-key 4F90A4D22E60B34F54D8B638C47C1F143142908A && rm public-key.gpg
@@ -44,20 +48,16 @@ $ echo -e '\n[BreakTimer]\nServer = https://fbs.sh/Palexer/BreakTimer/arch' | su
 $ sudo pacman -Syu breaktimer
 ```
 
-**Force an immediate update (if you have BreakTimer already installed):**
+Force an immediate update (if you have BreakTimer already installed):
 
 ```
 $ sudo pacman -Syu --needed breaktimer
 ```
 
-**Install BreakTimer WITHOUT receiving automatic updates:**
+Install BreakTimer WITHOUT receiving automatic updates:
 
-Download [https://fbs.sh/Palexer/BreakTimer/BreakTimer.pkg.tar.xz](here)
+Download [here](https://fbs.sh/Palexer/BreakTimer/BreakTimer.pkg.tar.xz)
 
+## License
 
-### Using Python (all operating systems)
-
-1. Install Python 3
-2. Install the dependencies:
-    > ``` pip3 install -r requirements/base.txt ```
-3. Run the main.py file using Python 3
+GPL v3
