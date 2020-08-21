@@ -142,5 +142,5 @@ cython_debug/
 
 # fbs
 target/
-src/build/settings/
+/src/build/settings/secret.json
 src/sign/

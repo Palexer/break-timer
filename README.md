@@ -1,8 +1,8 @@
-# Break Timer
+# BreakTimer
 
 ## About this application
 
-Break Timer is a little application, that regularly notifies you to take a break.
+BreakTimer is a little application, that regularly notifies you to take a break.
 
 ## Dependencies
 

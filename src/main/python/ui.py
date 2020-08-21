@@ -106,7 +106,7 @@ class UI(QWidget):
         # system tray icon
 
         self.tray = QSystemTrayIcon(QIcon(self.tray_icon_file), self)
-        self.tray.setToolTip("Break Timer")
+        self.tray.setToolTip("BreakTimer")
         self.tray.setVisible(True)
 
         self.tray.activated.connect(self.toggleShowWindow)
@@ -140,7 +140,7 @@ class UI(QWidget):
         self.about_dialog = QMessageBox()
         self.about_dialog.setIcon(QMessageBox.Information)
         self.about_dialog.setText(
-            "Break Timer is a little application, that regularly notifies you to take a break.")
+            "BreakTimer is a little application, that regularly notifies you to take a break.")
         self.about_dialog.setInformativeText(
             "For more details see https://github.com/Palexer/break-timer")
 
