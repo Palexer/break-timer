@@ -13,7 +13,7 @@ BreakTimer is a little application, that regularly notifies you to take a break.
 
 ## Installation
 
-### Executable file (only Linux)
+### Linux
 
 #### Debian based distributions (including Ubuntu):
 
@@ -82,9 +82,8 @@ sudo yum clean all && sudo yum upgrade breaktimer
 ```
 
 Install BreakTimer WITHOUT receiving automatic updates:
-```
-$ https://fbs.sh/Palexer/BreakTimer/BreakTimer.rpm
-```
+
+Download 	[here](https://fbs.sh/Palexer/BreakTimer/BreakTimer.rpm)
 
 ## License
 
