@@ -58,6 +58,34 @@ Install BreakTimer WITHOUT receiving automatic updates:
 
 Download [here](https://fbs.sh/Palexer/BreakTimer/BreakTimer.pkg.tar.xz)
 
+#### Fedora and CentOS
+
+Install BreakTimer and receive automatic updates:
+``` 
+$ sudo rpm -v --import https://fbs.sh/Palexer/BreakTimer/public-key.gpg
+$ sudo dnf config-manager --add-repo https://fbs.sh/Palexer/BreakTimer/rpm/BreakTimer.repo
+$ sudo dnf install breaktimer
+
+```
+_On CentOS, replace 'dnf' by 'yum' and 'dnf config-manager' by 'yum-config-manager'._
+
+Force an immediate update
+
+on Fedora:
+```
+$ sudo dnf upgrade breaktimer --refresh
+```
+
+on CentOS:
+```
+sudo yum clean all && sudo yum upgrade breaktimer
+```
+
+Install BreakTimer WITHOUT receiving automatic updates:
+```
+$ https://fbs.sh/Palexer/BreakTimer/BreakTimer.rpm
+```
+
 ## License
 
 GPL v3
