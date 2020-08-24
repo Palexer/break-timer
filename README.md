@@ -4,6 +4,8 @@
 
 BreakTimer is a little application, that regularly notifies you to take a break.
 
+![](screenshot.png)
+
 ## Dependencies
 
 - Python (3.6)
