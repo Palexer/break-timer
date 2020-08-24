@@ -15,6 +15,8 @@ BreakTimer is a little application, that regularly notifies you to take a break.
 
 ## Installation
 
+Installation packages are currently only available for Linux, however you should be able to use BreakTimer on any operating system, that has the dependencies installed.
+
 ### Linux
 
 #### Debian based distributions (including Ubuntu):
